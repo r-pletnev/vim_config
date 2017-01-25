@@ -1,4 +1,3 @@
-:colorscheme blue
 set expandtab
 set textwidth=140
 set tabstop=4
@@ -13,3 +12,4 @@ syntax on
 set showcmd
 
 :imap jj <ESC>
+map <C-\> : NERDTreeToggle<CR>
