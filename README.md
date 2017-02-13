@@ -1,2 +1,2 @@
 # My little vim config
-In **~/.vimrc** add this line: `source ~/vim_config/zeroed_config.vim`.
+Just start rc.sh and all will install in auto-mode
