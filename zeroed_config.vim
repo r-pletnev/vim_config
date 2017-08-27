@@ -11,5 +11,23 @@ set ruler
 syntax on
 set showcmd
 
-:imap jj <ESC>
+"exit by jj
+:imap jj <ESC> 
+"put right part of to the bottom string
+nnoremap ∆ i<CR><Esc>
+" russian keymap-problem
+set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
+
+nmap Ж :
+" yank
+nmap Н Y
+nmap з p
+nmap ф a
+nmap щ o
+nmap г u
+nmap З P
+imap оо <Esc>
+
+
+
 map <C-\> : NERDTreeToggle<CR>
