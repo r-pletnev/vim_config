@@ -10,6 +10,17 @@ set backspace=indent,eol,start
 set ruler
 syntax on
 set showcmd
+set number
+
+syntax enable
+set ts=4
+set autoindent
+set expandtab
+set shiftwidth=4
+set cursorline
+set showmatch
+let python_highlight_all = 1
+
 
 "exit by jj
 :imap jj <ESC> 
@@ -27,7 +38,4 @@ nmap щ o
 nmap г u
 nmap З P
 imap оо <Esc>
-
-
-
 map <C-\> : NERDTreeToggle<CR>
