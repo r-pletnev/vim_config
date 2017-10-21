@@ -31,8 +31,6 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " CtrlP plugin fuzzy finder
 Plugin 'ctrlpvim/ctrlp.vim'
 
-Plugin 'Valloric/YouCompleteMe'
-
 Plugin 'scrooloose/nerdtree'
 
 Plugin 'scrooloose/syntastic'
